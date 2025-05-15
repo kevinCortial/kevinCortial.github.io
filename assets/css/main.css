@@ -777,6 +777,24 @@ section,
   border: 2px solid var(--accent-color);
 }
 
+.linkedin-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #0077B5;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.linkedin-link:hover {
+  color: #00669c;
+}
+
+.linkedin-link i {
+  font-size: 1.5rem;
+}
+
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
@@ -1272,4 +1290,49 @@ section,
 --------------------------------------------------------------*/
 .starter-section {
   /* Add your styles here */
+}
+
+.skills-box {
+  background: var(--surface-color);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+}
+
+.skills-box h3 {
+  font-size: 22px;
+  margin-bottom: 25px;
+  color: var(--heading-color);
+}
+
+.skills-box h3 i {
+  color: var(--accent-color);
+  margin-right: 10px;
+}
+
+.skill-item {
+  margin-bottom: 25px;
+}
+
+.skill-item:last-child {
+  margin-bottom: 0;
+}
+
+.skill-item h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.skill-item p {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.skill-item p i {
+  color: var(--accent-color);
+  margin-right: 10px;
+  font-size: 1.2em;
 }
