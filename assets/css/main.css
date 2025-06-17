@@ -1347,3 +1347,10 @@ section,
   margin: 0;
   padding: 0;
 }
+
+.recommendation-note {
+  font-size: 0.9em;
+  color: color-mix(in srgb, var(--default-color), transparent 40%);
+  margin-top: -15px;
+  margin-bottom: 0;
+}
