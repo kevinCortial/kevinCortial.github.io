@@ -1336,3 +1336,14 @@ section,
   margin-right: 10px;
   font-size: 1.2em;
 }
+
+.testimonial-text {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.testimonial-text span {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
